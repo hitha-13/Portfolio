@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f7f5f5;
+  color: #0f0f0f;
+  padding-top: 100px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #0f0f0f;
+  height: 60px;
+  width: 100%;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-left: 30px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links .Linkedin {
+  color: #4463d6;
+  border: 1px solid #4363e2;
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin-right: 40px;
+}
+
+.Linkedin:hover{
+  border: 1px solid #dadce3; 
+}
+
+.nav-links .Linkedin:hover{
+  color: #ffffff;
+}
+
+.nav-links a:hover {
+  color: #4463d6;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  gap: 40px;
+}
+
+.intro-text {
+  max-width: 60%;
+  margin-left: 20px;
+}
+
+#text{
+  font-weight: 50px;
+}
+
+.intro-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.intro-text h1 span {
+  color: #151414;
+  font-weight: bold;
+}
+
+.intro-text h2 {
+  font-size: 24px;
+  color: #4463d6;
+  margin-bottom: 20px;
+}
+
+.intro-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.resume-btn {
+  margin-top: 50PX;
+  background: #4463d6;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.resume-btn:hover {
+  background: #d3d7df;
+  color:#4463d6 ;
+}
+
+.profile-pic img {
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  border: 4px solid #4463d6;
+  object-fit: cover;
+  margin-right: 80px;
+}
+.footer-wrapper{
+  background-color:#9ca6cc ;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  margin-bottom: 30px;
+  margin-top: 150px;
+  border-left: solid rgb(54, 105, 201) ;
+  border-left-width: 10px ;
+
+}
+.brand{
+  margin-top: 30px;
+}
+
+.card{
+  max-width: 50%;
+  max-height: 50%;
+  margin: auto;
+  padding: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skil{
+   
+  margin-top: 30px;
+  display: flex;
+  margin: 30px;
+}
+
+.pro{
+  h2{
+    margin-top: 50px;
+  }
+}
+
+#about{
+  margin-top: 80px;
+}
+
+#about,#skill,#pro,#education{
+  scroll-margin-top: 100px;
+}
